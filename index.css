@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: rgb(62, 62, 62);
+}
+.main-box {
+  width: 462px;
+  height: 603px;
+  margin: 4rem auto;
+  background-color: white;
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-name-section {
+  width: 343px;
+  height: 24px;
+  margin-top: 39px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-name-section hr {
+  width: 91.65px;
+  height: 0px;
+  direction: -0 deg;
+  border: 0.9px solid #c8c8c8;
+}
+.logo-name-section span {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ff6b82;
+}
+
+.price-section {
+  width: 342px;
+  min-height: 222.33px;
+  max-height: 363.11px;
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.price-section :nth-child(2){
+    border-color:  #ff6b82;
+    
+}
+.Innerdiv {
+  width: 338px;
+  height: 74.11px;
+  background-color: white;
+  margin-bottom: 20px;
+  border: 0.9px solid #c8c8c8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.price-contant {
+  display: flex;
+  justify-content: center;
+  gap: 4.5rem;
+}
+.free-delivery-section {
+  width: 342px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.free-delivery-section span {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ff6b82;
+}
+
+.free-delivery-section p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: black;
+}
+
+.add-to-cart {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+
+  margin-top: 20px;
+}
+.add-to-cart button {
+  width: 342px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  background-color: #ff6b82;
+  border: none;
+}
+.add-to-cart span {
+  margin-left: 218px;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #00000066;
+}
+
+
+.units {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+
+
+.units span {
+  margin-left: 10px;
+  background-color: #ff6b82;
+  color: white;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 3px;
+  border-radius: 2px;
+
+}
+
+.units h4{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 16.94px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000;
+}
+.units p{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.52px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.Price{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.Price h4{
+    font-family: Inter;
+font-size: 14.46px;
+font-weight: 500;
+line-height: 17.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.Price p {
+    font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 12.1px;
+text-align: left;
+text-decoration-line: line-through;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #C8C8C8;
+}
+
+.label {
+width: 180;
+height: 26px;
+position: absolute;
+background-color: #ff6b82;
+color: white;
+padding: 5px;
+top: 230px;
+right: 593px;
+border-radius: 0px 0px 4px 4px;
+z-index: 1;
+}
+.Size {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap :10px ;
+}
+.Color{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap :10px ;
+
+}
+.extra-content{
+    display:flex ;
+     justify-content: center;
+     align-items:center ;
+     gap: 15px;
+}
